@@ -100,7 +100,8 @@ head(summarizedPharmacoData) # we have <chr> and <dbl>
 
 - we have <chr> and <dbl>
 - cellLine and drug are type chr (character), meaning can't be manipulated matematically,  while the rest are numeric that can be transformed and analyzed using math.
-
+  
+- We got Ic50 (concentration at which cell growth is inhibited 50%) and auc (area under the activity curve)
 
 6. Plot histograms of the viability scores at different levels of drug
 doses. Are stronger drug concentrations consistent with lower viability scores?
